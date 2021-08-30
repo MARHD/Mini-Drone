@@ -20,6 +20,5 @@ instructions in a documented public git repository
 5. The final thesis report, poster, and presentation
 
 Budget:
-R1,500
-
+R
 
