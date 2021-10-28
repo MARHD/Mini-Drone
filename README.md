@@ -38,3 +38,5 @@ All required components and suppliers are listed in the following [BOM](./Instru
 
 Build instructions are available [here](./Instructions/README.md)
 
+Read through the written report to learn how the components were chosen
+
