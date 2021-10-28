@@ -2,6 +2,9 @@
 Design of a Mini Drone for EEE4022S
 
 
+![alt text](https://github.com/MARHD/Mini-Drone/blob/main/framef1.png?raw=true)
+
+
 Original project description:
 Ardupilot is a professional grade open-source autopilot software stack. This
 project requires a student to design a mini-drone (<250g) running the Ardupilot
