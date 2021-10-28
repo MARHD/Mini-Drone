@@ -24,7 +24,7 @@ instructions in a documented public git repository
 
 ## Specifications
 - Quadracopter with optical flow sensor and range finder
-- Cost: R5273 (Excluding shipping, compatable transmitter and 2S LiPo battery charger)
+- Cost: R 5273 (Excluding optical flow sensor, shipping, compatable transmitter and 2S LiPo battery charger), price can be reduced with the replacement of the Pixracer for an Omnibus F4 Pro
 - Uses Pixracer R15 flight controller/autopilot, running ArduPilot
 - Take-off weight including battery: 107g
 - Recommended payload capacity: 60g
@@ -38,5 +38,5 @@ All required components and suppliers are listed in the following [BOM](./Instru
 
 Build instructions are available [here](./Instructions/README.md)
 
-Read through the written report to learn how the components were chosen
+Read through the written report to learn how the components were chosen. Available [here](./report.pdf)
 
