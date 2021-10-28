@@ -1,0 +1,2703 @@
+<!DOCTYPE html>
+<!-- saved from url=(0122)https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration -->
+<html lang="en" class=" js csstransforms3d" style=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./Advanced configuration _ Erle Robotics Docs_files/cb=gapi.loaded_1" async=""></script><script src="./Advanced configuration _ Erle Robotics Docs_files/cb=gapi.loaded_0" async=""></script><script async="" src="./Advanced configuration _ Erle Robotics Docs_files/analytics.js.download"></script><script src="./Advanced configuration _ Erle Robotics Docs_files/analytics.js(1).download" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app31.us.archive.org';v.server_ms=296;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="./Advanced configuration _ Erle Robotics Docs_files/playback.bundle.js.download" charset="utf-8"></script>
+<script type="text/javascript" src="./Advanced configuration _ Erle Robotics Docs_files/wombat.js.download" charset="utf-8"></script>
+<script type="text/javascript">
+  __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://docs.erlerobotics.com:80/brains/pxfmini/software/apm/advanced_configuration","20170511234704","https://web.archive.org/","web","/_static/",
+	      "1494546424");
+</script>
+<style class="anchorjs"></style><link rel="stylesheet" type="text/css" href="./Advanced configuration _ Erle Robotics Docs_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./Advanced configuration _ Erle Robotics Docs_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+        
+    <title>Advanced configuration | Erle Robotics Docs</title>
+    <meta name="generator" content="GravCMS">
+<meta name="description" content="Erle Robotics Official Docs">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no">
+    <link rel="alternate" type="application/atom+xml" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/feed:atom" title="Atom Feed">
+    <link rel="alternate" type="application/rss+xml" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/feed:rss" title="RSS Feed">
+    <link rel="icon" type="image/png" href="https://web.archive.org/web/20170511234704im_/http://docs.erlerobotics.com/user/themes/learn2/images/favicon.png">
+
+                                            
+        
+        <link href="./Advanced configuration _ Erle Robotics Docs_files/0a24c251a63111db35acc2ba9e6874c0.css" type="text/css" rel="stylesheet">
+
+    
+                                                            <script src="./Advanced configuration _ Erle Robotics Docs_files/4b9dd76b4f68f92882dbb3f12da79abb.js.download" type="text/javascript"></script><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1px; bottom: 2px; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style>
+
+<script>
+$(document).ready(function() {
+                                anchors.options = {
+                                    visible: 'hover',
+                                    placement: 'right',
+                                    
+                                    
+                                };
+                                anchors.add('#body h2, #body h3, #body h4, #body h5');
+                             });
+$(document).ready(function() {
+                    $('pre code').each(function(i, block) {
+                        hljs.highlightBlock(block);
+                    });
+                 });
+
+</script>
+
+    
+    </head>
+<body class="searchbox-hidden " data-url="/brains/pxfmini/software/apm/advanced_configuration"><div id="MathJax_Message" style="display: none;"></div><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<style type="text/css">
+body {
+  margin-top:0 !important;
+  padding-top:0 !important;
+  /*min-width:800px !important;*/
+}
+</style>
+<script>__wm.rw(0);</script>
+<div id="wm-ipp-base" lang="en" style="display: block; direction: ltr;">
+</div><div id="wm-ipp-print">The Wayback Machine - https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com:80/brains/pxfmini/software/apm/advanced_configuration</div>
+<div id="donato" style="position:relative;width:100%;">
+  <div id="donato-base">
+    <iframe id="donato-if" src="./Advanced configuration _ Erle Robotics Docs_files/donate.html" scrolling="no" frameborder="0" style="width:100%; height:100%">
+    </iframe>
+  </div>
+</div><script type="text/javascript">
+__wm.bt(650,27,25,2,"web","http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration","20170511234704",1996,"/_static/",["/_static/css/banner-styles.css?v=omkqRugM","/_static/css/iconochive.css?v=qtvMKcIJ"], false);
+  __wm.rw(1);
+</script>
+<!-- END WAYBACK TOOLBAR INSERT -->
+        <nav id="sidebar">
+        <div id="header-wrapper">
+            <div id="header">
+                <a id="logo" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/"></a><a href="https://web.archive.org/web/20170511234704/http://erlerobotics.com/blog/"><img src="./Advanced configuration _ Erle Robotics Docs_files/logo.png" style="max-width: 75%;" alt="logo"></a><a>
+</a>
+                <div class="searchbox">
+                    <label for="search-by"><i class="fa fa-search"></i></label>
+                    <input id="search-by" type="text" placeholder="Search Documentation" data-search-input="/search.json/query">
+                    <span data-search-clear=""><i class="fa fa-close"></i></span>
+                </div>
+            </div>
+        </div>
+        
+
+<div class="scroll-wrapper scrollbar-inner" style="position: relative;"><div class="scrollbar-inner scroll-content scroll-scrolly_visible" style="height: auto; margin-bottom: 0px; margin-right: 0px; max-height: 571px;">
+    <div class="highlightable" style="height: 571px;">
+                    <ul class="topics">
+                                                                        <li class="dd-item" data-nav-id="/">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/">
+                <i class="fa fa-check read-icon"></i>
+                <span><b>1. </b>Introduction</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item parent" data-nav-id="/brains">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains">
+                <i class="fa fa-check read-icon"></i>
+                <span><b>2. </b>Artificial brains and autopilots</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain 3</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting Started</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/peripherals">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/peripherals">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Peripherals</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/zeroconf">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/zeroconf">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Using Ethernet and Zeroconf (avahi)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/ethernet">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/ethernet">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Ethernet</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/wifi_hotspot">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/wifi_hotspot">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi hostpot</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/wifi_client">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/wifi_client">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi client</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/getting_started/ssh">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/getting_started/ssh">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>SSH</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/hardware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/hardware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Hardware</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/hardware/communications">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/hardware/communications">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Communications</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/hardware/power">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/hardware/power">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/hardware/sensing">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/hardware/sensing">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Sensing</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/hardware/led_status">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/hardware/led_status">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>LED status</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/sofware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/sofware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Software</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/sofware/apm">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/sofware/apm">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Ardupilot (APM)</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/sofware/apm/advanced_configuration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/sofware/apm/advanced_configuration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Advanced configuration</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/sofware/px4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/sofware/px4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PX4</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/anti-vibration_system">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/anti-vibration_system">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Anti-Vibration System</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/erle-brain-3/projects">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/erle-brain-3/projects">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Projects</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item parent" data-nav-id="/brains/pxfmini">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXFmini</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/pxfmini/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting started</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/schematics">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/schematics">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Schematics</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/hardware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/hardware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Hardware</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/pxfmini/hardware/communications">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/hardware/communications">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Communications</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/hardware/power">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/hardware/power">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/hardware/sensing">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/hardware/sensing">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Sensing</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/hardware/led_status">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/hardware/led_status">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>LED status</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item parent" data-nav-id="/brains/pxfmini/software">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Software</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item parent" data-nav-id="/brains/pxfmini/software/apm">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/pxfmini/software/apm/install_binaries">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/install_binaries">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install binaries</span>
+            </a>
+                    </li>
+                            <li class="dd-item active" data-nav-id="/brains/pxfmini/software/apm/advanced_configuration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Advanced configuration</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/software/px4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/px4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PX4</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/pxfmini/projects">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/projects">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Projects</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Operating System images</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/os_images/debian">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/debian">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Debian</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/modular_debian">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/modular_debian">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Modular Debian</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/os_images/modular_debian/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/modular_debian/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting Started</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/modular_debian/available_containers">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/modular_debian/available_containers">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Available Containers</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/license">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/license">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>License</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/flashing_os_images">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/flashing_os_images">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flashing OS images</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/os_images/flashing_os_images/linux">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/flashing_os_images/linux">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Linux</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/flashing_os_images/macos">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/flashing_os_images/macos">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Mac OS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/os_images/flashing_os_images/windows">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/os_images/flashing_os_images/windows">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Windows</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Additional devices</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/additional_devices/lidar">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/lidar">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Lidar</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/optical_flow">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/optical_flow">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Optical flow</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/gimbal">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/gimbal">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Gimbal</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/electro_permanet_magnet">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/electro_permanet_magnet">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Electro permanent magnet</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/2d_laser_scanners">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/2d_laser_scanners">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>2D laser scanners</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/depth_sensor">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/depth_sensor">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Depth sensor</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/charging_pad">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/charging_pad">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Charging pad</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/additional_devices/digital_airspeed">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/additional_devices/digital_airspeed">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Digital airspeed</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Discontinued</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting Started</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Connection to Erle-Brain</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain/linux_and_macos">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain/linux_and_macos">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Under Linux &amp; MacOS</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain/windows">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/connecting_to_erle_brain/windows">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Windows</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/internet_through_ethernet">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/internet_through_ethernet">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Internet through Ethernet</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/internet_through_wifi">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/internet_through_wifi">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Internet through WiFi</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/wifi_hotspot">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/wifi_hotspot">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi hotspot</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/getting_started/wifi_hotspot_frecuency">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/getting_started/wifi_hotspot_frecuency">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi hotspot frecuency</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Hardware</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/dimensions_and_height">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/dimensions_and_height">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Dimensions and height</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/typical_hardware_setup">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/typical_hardware_setup">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Typical hardware setup</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/pwm_out">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/pwm_out">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PWM output</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/rc_input">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/rc_input">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>RC input</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/buzzer">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/buzzer">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Buzzer</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/gps_and_compass">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/gps_and_compass">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>GPS and compass</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/i2c_bus">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/i2c_bus">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>I2C bus</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/power">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/power">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/hardware/other_busses_and_ports">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/hardware/other_busses_and_ports">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Other busses and ports</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Software</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/operating_system">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/operating_system">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Operating system</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/operating_system/debian">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/operating_system/debian">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Debian</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/operating_system/debian/apm_autopilot">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/operating_system/debian/apm_autopilot">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM autopilot</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/operating_system/debian/ros">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/operating_system/debian/ros">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>ROS</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/operating_system/snappy">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/operating_system/snappy">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Snappy</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/software/working_under_linux">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/software/working_under_linux">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Working under Linux</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/examples">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/examples">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Examples</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/examples/apm_baro">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/examples/apm_baro">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM barometer</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/examples/apm_ahrs">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/examples/apm_ahrs">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM AHRS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/examples/apm_uart_connection">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/examples/apm_uart_connection">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM UART connection</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle_brain/examples/apm_inertialsensor">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle_brain/examples/apm_inertialsensor">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM inertial sensor</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting Started</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/zeroconf">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/zeroconf">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Using Ethernet and Zeroconf (avahi)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/ethernet">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/ethernet">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Ethernet</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/hdmi">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/hdmi">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>HDMI</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/wifi_hotspot">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/wifi_hotspot">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi hostpot</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/wifi_client">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/wifi_client">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>WiFi client</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/getting_started/ssh">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/getting_started/ssh">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>SSH</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/hardware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/hardware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Hardware</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/hardware/communications">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/hardware/communications">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Communications</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/hardware/power">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/hardware/power">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/hardware/sensing">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/hardware/sensing">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Sensing</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/hardware/led_status">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/hardware/led_status">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>LED status</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Software</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/install_binaries">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/install_binaries">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install binaries</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/advanced_configuration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/advanced_configuration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Advanced configuration</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Tools</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavproxy">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavproxy">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVProxy</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavextract">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavextract">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVExtract</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflightmodes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflightmodes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVFlightmodes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflighttime">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflighttime">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVFlighttime</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflightview">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavflightview">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVFlightview</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavgraph">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavgraph">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVGraph</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavlogdump">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavlogdump">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVLogdump</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavparams">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavparams">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVParams</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavtogpx">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavtogpx">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVTogpx</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/mavtomfile">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/mavtomfile">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>MAVTomfile</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/tools/sitl">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/tools/sitl">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>SITL</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Log files</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/intro">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/intro">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Intro</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/imu">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/imu">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>IMU</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flight modes</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/altitude_hold">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/altitude_hold">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Altitude hold</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/follow_me">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/follow_me">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Follow me</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/guided">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/guided">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Guided</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/land">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/land">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Land</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/loiter">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/loiter">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Loiter</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/position">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/position">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Position</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/rtl">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/rtl">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Return to launch (RTL)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/stabilize">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/flight_modes/stabilize">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Stabilize</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/gps">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/gps">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>GPS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/temperature">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/temperature">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Temperature</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/log_files/performance">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/log_files/performance">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Performance monitoring</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/apm/battery_monitor">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/apm/battery_monitor">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Battery monitor</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/sofware/px4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/sofware/px4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PX4</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/erle-brain-2/projects">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/erle-brain-2/projects">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Projects</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxf">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxf">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXF</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXFmini</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/getting_started">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/getting_started">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting started</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/schematics">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/schematics">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Schematics</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/hardware">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/hardware">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Hardware</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/hardware/communications">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/hardware/communications">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Communications</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/hardware/power">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/hardware/power">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/hardware/sensing">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/hardware/sensing">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Sensing</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/hardware/led_status">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/hardware/led_status">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>LED status</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/software">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/software">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Software</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/software/apm">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/software/apm">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/software/apm/install_binaries">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/software/apm/install_binaries">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install binaries</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/software/apm/advanced_configuration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/software/apm/advanced_configuration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Advanced configuration</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxfmini/software/px4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxfmini/software/px4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PX4</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/brains/discontinued/pxf2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/discontinued/pxf2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXF 2</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots">
+                <i class="fa fa-check read-icon"></i>
+                <span><b>3. </b>Robots</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Copter</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Assembly</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/erle_brain_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/erle_brain_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain 3 - Erle-Brain 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/erle_brain_2/en">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/erle_brain_2/en">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>EN</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/erle_brain_2/es">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/erle_brain_2/es">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>ES</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/pxfmini">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/pxfmini">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXFmini</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/leg_and_gimbal">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/leg_and_gimbal">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Legs &amp; Gimbal</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/assembly/gimbal_setup">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/assembly/gimbal_setup">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Gimbal setup</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/flying_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/flying_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flying Modes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/first_flight">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/first_flight">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>First Flight</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/components">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/components">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Components</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/flying_with_gps_and_compass">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/flying_with_gps_and_compass">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flying with GPS and compass</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/gazebo_simulation">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/gazebo_simulation">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Gazebo simulation</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/examples">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/examples">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Examples</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/examples/arming_and_disarming_erle_copter">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/examples/arming_and_disarming_erle_copter">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Arming and disarming Erle-Copter</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/examples/changing_the_flight_mode">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/examples/changing_the_flight_mode">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Changing the flight mode</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/examples/overriding_radio_controller">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/examples/overriding_radio_controller">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Overriding radio controller</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_copter/examples/visualizing_imu">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_copter/examples/visualizing_imu">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Visualizing IMU</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_hexa">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_hexa">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-HexaCopter</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_hexa/flying_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_hexa/flying_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flying Modes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_hexa/first_flight">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_hexa/first_flight">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>First Flight</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_hexa/components">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_hexa/components">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Components</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_hexa/flying_with_gps_and_compass">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_hexa/flying_with_gps_and_compass">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flying with GPS and compass</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Rover</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/assembly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/assembly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Assembly</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/assembly/erle_brain_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/assembly/erle_brain_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain 3</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/assembly/erle_brain_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/assembly/erle_brain_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Brain 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/assembly/pxfmini">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/assembly/pxfmini">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>PXFmini</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/first_steps">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/first_steps">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>First steps</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/control_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/control_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Control Modes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/operate_erle_rover_using_ros">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/operate_erle_rover_using_ros">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Operate Erle-Rover using ROS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Blocks</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Examples</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/teleoperation_erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/teleoperation_erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Teleoperating Erle-Rover</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/coordinate_transforms">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/coordinate_transforms">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Coordinate transforms</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/include_odometry_with_a_2d_laser">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/include_odometry_with_a_2d_laser">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Including odometry with a laser2D</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/creating_a_map_with_erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/creating_a_map_with_erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Creating a map with Erle-Rover</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/localization_in_a_know_map_with_erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/localization_in_a_know_map_with_erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Localization in a known map with Erle-Rover</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/erle_rover/examples/autonomous_navigation_of_a_know_map_with_erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/erle_rover/examples/autonomous_navigation_of_a_know_map_with_erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Autonomous navigation of a known map with Erle-Rover</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Projects</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/projects/boat">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/boat">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Boat</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/plane_x5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/plane_x5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Plane X5</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/scuba">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/scuba">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Scuba</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/projects/scuba/assembly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/scuba/assembly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Assembly</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/scuba/configuration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/scuba/configuration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Configuration</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/scuba/test">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/scuba/test">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Test</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/plane_x1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/plane_x1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Plane X1</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/projects/plane_x1/assembly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/plane_x1/assembly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Assembly</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/plane_x1/elevons_amplitude">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/plane_x1/elevons_amplitude">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Elevons amplitude</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/plane_x1/rc_calibration">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/plane_x1/rc_calibration">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>RC calibration</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/projects/chordata_quads">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/projects/chordata_quads">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Chordata Quads</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Related</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/related/battery">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/battery">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Battery</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/power_module">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/power_module">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Power Module</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Ground control stations</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>APM Planner</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/connection_to_erle_brain_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/connection_to_erle_brain_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Connecting to Erle-Brain 3</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/flight_data">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/flight_data">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flight data</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/initial_setup">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/initial_setup">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Initial setup</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/flight_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/flight_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flight modes</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/simple_mode">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/simple_mode">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Simple mode</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/apm_planner/failsafes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/apm_planner/failsafes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Failsafes</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/qgroundcontrol">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/qgroundcontrol">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>QGroundControl</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/qgroundcontrol/initial_setup">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/qgroundcontrol/initial_setup">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Initial Setup</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/ground_control_station/qgroundcontrol/camera_streaming">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/ground_control_station/qgroundcontrol/camera_streaming">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Camera streaming</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/flight_tips">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/flight_tips">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flight tips</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/related/safety">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/related/safety">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Safety</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Discontinued robots</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_plane">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_plane">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Plane</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_plane/setup">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_plane/setup">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Setup</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_plane/flying_modes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_plane/flying_modes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Flight modes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_plane/first_flight">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_plane/first_flight">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>First Flight</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Spider</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/assembly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/assembly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Assembly</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/assembly/en">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/assembly/en">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>English</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/assembly/es">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/assembly/es">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Spanish</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/components">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/components">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Components</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/explore_inside">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/explore_inside">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Explore Inside</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Blocks</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/erle_robots/discontinued_robots/erle_spider/troubleshooting">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/erle_robots/discontinued_robots/erle_spider/troubleshooting">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Troubleshooting</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system">
+                <i class="fa fa-check read-icon"></i>
+                <span><b>4. </b>Robot Operating System</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>ROS</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Basic concepts</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/nodes">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/nodes">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Nodes</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/topics">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/topics">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Topics</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/services">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/services">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Services</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/params">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/params">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Param</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/ros_tools">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/ros_tools">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>ROS tools</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/configure your_network">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/configure%20your_network">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Configure your network</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/examples">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/examples">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Examples</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/examples/publisher_and_subscribers">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/examples/publisher_and_subscribers">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Publisher and subscriber</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/examples/services">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/examples/services">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Services</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/basic_concepts/examples/subcribe_images">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/basic_concepts/examples/subcribe_images">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Subscribe to compressed images</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Blockly</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/intro">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/intro">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Intro</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/launch">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/launch">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Launch</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Builder</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/robot_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/robot_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Robot block</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/logic_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/logic_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Logic blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/loop_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/loop_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Loop blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/math_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/math_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Math blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/lists_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/lists_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>List blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/variables_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/variables_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Variables blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/functions_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/functions_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Functions blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/code_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/code_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>code blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/control_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/control_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Control blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/builder/custom_blocks">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/builder/custom_blocks">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Create Custom Blocks</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Tutorials</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 1: Using Erle-Lidar laser</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 2: Using Erle-Spider 'turn degrees' block</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 3: Simple maze using Erle-Lidar laser block</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 4: Taking a picture</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 5: Detecting color location using the camera</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_6">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_6">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 6: Erle-Spider obstacle avoidance</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_7">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_7">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 7: Erle-Brain SLAM (Simultaneous Localization and Mapping)</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/tutorials/tutorial_8">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/tutorials/tutorial_8">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>TUTORIAL 8: Erle-Spider Move meters block</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/blockly/block_creation">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/blockly/block_creation">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Block creation</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/tutorials">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/tutorials">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Tutorials</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/tutorials/tutorial_1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/tutorials/tutorial_1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Getting started and installing ROS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/tutorials/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/tutorials/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Understanding ROS and creating a catkin workspace</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/tutorials/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/tutorials/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Making a ROS package for a drone</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros/tutorials/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros/tutorials/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Making a snappy app out of a ROS package</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/basic_concepts">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/basic_concepts">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Basic concepts</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/basic_concepts/dds">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/basic_concepts/dds">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>DDS</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/basic_concepts/middleware_interface">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/basic_concepts/middleware_interface">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Middleware interface</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/basic_concepts/client_library">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/basic_concepts/client_library">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Client Library</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/basic_concepts/interesting_links">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/basic_concepts/interesting_links">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Interesting links</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Tutorials</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_0">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_0">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install ROS 2 from its sources</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install ROS 2 in Linux</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Install ROS 2 in OS X</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Create a ROS 2 package (Python)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Create a ROS 2 package (C++)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_6">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_6">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Services in ROS 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_7">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_7">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Messages in ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_7/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_7/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_7/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_7/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_8">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_8">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Publisher in ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_8/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_8/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_8/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_8/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_9">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_9">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Subscriber in ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_9/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_9/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_9/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_9/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_10">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_10">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Parameters in ROS 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Create a communication bridge between ROS 1 and ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11/find_ros1_package">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11/find_ros1_package">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Find ROS package</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11/bridge_1_to_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11/bridge_1_to_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Bridge 1 to 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11/bridge_2_to_1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11/bridge_2_to_1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Bridge 2 to 1</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11/cmakelists">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11/cmakelists">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>CMakeLists</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutorials/tutorial_11/package">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutorials/tutorial_11/package">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Package</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Tutoriales (Español)</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Instalación de ROS 2 en Linux </span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Instalación de ROS 2 en Mac OS</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Crear un paquete ROS 2 (Python)</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Crear un paquete ROS 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_6">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_6">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Servicios en ROS 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_7">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_7">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Mensajes en ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_7/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_7/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_7/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_7/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_8">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_8">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Publicador ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_8/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_8/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_8/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_8/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_9">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_9">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Suscriptor en ROS 2</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_9/cpp">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_9/cpp">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Cpp</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_9/python">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_9/python">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Python</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_10">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_10">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Parametros en ROS 2</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/robot_operating_system/ros2/tutoriales/tutorial_11">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/robot_operating_system/ros2/tutoriales/tutorial_11">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Crear un puente de comunicación entre ROS 1 y ROS 2</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation">
+                <i class="fa fa-check read-icon"></i>
+                <span><b>5. </b>Simulation</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/simulation/intro">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/intro">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Introduction</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/configuring_your_environment">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/configuring_your_environment">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Configuring your environment</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Vehicles</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Copter</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter/tutorial_1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter/tutorial_1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Launching Erle-Copter simulation</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Testing flight modes</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Automatic take off and land</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Teleoperation with MAVROS</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_copter/tutorial_5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_copter/tutorial_5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Pattern follower</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Rover</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover/tutorial_1">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover/tutorial_1">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Launching Erle-Rover simulation</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover/tutorial_2">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover/tutorial_2">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Obstacle Avoidance</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover/tutorial_3">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover/tutorial_3">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Line Follower</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover/tutorial_4">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover/tutorial_4">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>SLAM with hector_mapping</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_rover/tutorial_5">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_rover/tutorial_5">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Autonomous navigation of a known map with Erle-Rover</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/vehicles/erle_spider">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/vehicles/erle_spider">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Spider</span>
+            </a>
+                        <ul>
+                                    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/gym">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/gym">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Gym</span>
+            </a>
+                        <ul>
+                                                            <li class="dd-item" data-nav-id="/simulation/gym/turtlebot">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/gym/turtlebot">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Turtlebot</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/gym/erle_rover">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/gym/erle_rover">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Rover</span>
+            </a>
+                    </li>
+                            <li class="dd-item" data-nav-id="/simulation/gym/erle_copter">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/simulation/gym/erle_copter">
+                <i class="fa fa-check read-icon"></i>
+                <span><b></b>Erle-Copter</span>
+            </a>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+            </ul>
+                    </li>
+    
+                            </ul>
+                <hr>
+
+        <a class="padding" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#" data-clear-history-toggle=""><i class="fa fa-fw fa-history"></i> Clear History</a><br>
+
+        <section id="footer">
+            <p style="padding-bottom: 10px;">Made with ♥ by Erle Robotics</p>
+            <div class="twitter" style="width:100%">
+                <iframe allowtransparency="true" frameborder="0" scrolling="no" style="width:162px; height:20px;" src="./Advanced configuration _ Erle Robotics Docs_files/follow_button.html"></iframe>
+            </div>
+            <div class="social" style="width:100%">
+                <iframe src="./Advanced configuration _ Erle Robotics Docs_files/follow.html" width="67" height="20" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+                <iframe src="./Advanced configuration _ Erle Robotics Docs_files/like.html" width="95" height="20" style="border:none;overflow:hidden;" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+            </div>
+            <div class="social" style="width:100%">
+                <script src="./Advanced configuration _ Erle Robotics Docs_files/platform.js.download" gapi_processed="true"></script>
+                <div style="position: absolute; width: 450px; left: -10000px;" id="___ytsubscribe_0"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I0_1494546432894" name="I0_1494546432894" src="./Advanced configuration _ Erle Robotics Docs_files/subscribe_embed.html" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div><div class="g-ytsubscribe" data-channelid="UC4PSPiQ7aIvQGgNTdp9IqOg" data-layout="default" data-count="hidden" data-gapiscan="true" data-onload="true" data-gapistub="true"></div>
+            </div>
+            <div class="social" style="width:100%">
+                <script src="./Advanced configuration _ Erle Robotics Docs_files/platform.js.download" async="" defer="">
+                  {lang: 'en-GB'}
+                </script>
+                <div style="position: absolute; width: 450px; left: -10000px;" id="___follow_0"><iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position:absolute;top:-10000px;width:450px;margin:0px;border-style:none" tabindex="0" vspace="0" width="100%" id="I1_1494546432915" name="I1_1494546432915" src="./Advanced configuration _ Erle Robotics Docs_files/follow(1).html" allow="autoplay &#39;self&#39;; fullscreen &#39;self&#39;"></iframe></div><div class="g-follow" data-annotation="none" data-height="20" data-href="https://plus.google.com/101047379336328077531" data-rel="publisher" data-gapiscan="true" data-onload="true" data-gapistub="true"></div>
+            </div>
+        </section>
+    </div>
+</div><div class="scroll-element scroll-x scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="width: 88px;"></div></div></div><div class="scroll-element scroll-y scroll-scrolly_visible"><div class="scroll-element_outer"><div class="scroll-element_size"></div><div class="scroll-element_track"></div><div class="scroll-bar" style="height: 338px; top: 233px;"></div></div></div></div>
+    </nav>
+    
+        <section id="body">
+        <div id="overlay"></div>
+
+        <div class="padding highlightable">
+            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#" id="sidebar-toggle" data-sidebar-toggle=""><i class="fa fa-2x fa-bars"></i></a>
+
+                        <div id="top-bar">
+                
+                                
+<div id="breadcrumbs" itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb">
+                                            <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/" itemprop="url"><span itemprop="title">Introduction</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains" itemprop="url"><span itemprop="title">Artificial brains and autopilots</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini" itemprop="url"><span itemprop="title">PXFmini</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software" itemprop="url"><span itemprop="title">Software</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm" itemprop="url"><span itemprop="title">APM</span></a>
+                        <i class="fa fa-angle-right"></i>
+                                                <span itemprop="title">Advanced configuration</span>
+                        </div>
+                            </div>
+            
+                <div id="body-inner">
+<h1>Advanced configuration</h1>
+<p>
+	</p><nav class="table-of-contents toc" role="navigation">
+                <span class="toctitle">Table of contents:</span>
+      
+                            
+  <ul>
+      
+        
+        
+              <li><a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#managing-the-services" class="toclink" title="Managing the services">Managing the services</a></li>
+      
+        
+        
+              <li><a href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#change-the-vehicle" class="toclink" title="Change the vehicle">Change the vehicle</a></li>
+      
+    
+  </ul>
+</nav>
+
+
+<h2 id="managing-the-services"><a class="headeranchor-link" aria-hidden="true" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#managing-the-services" name="managing-the-services" title="Permanent link: Managing the services" data-icon="#">Managing the services</a><a class="anchorjs-link " href="about:blank#managing-the-services" aria-label="Anchor link for: managing the services" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h2>
+<p>By default, Debian image has a service which consists on running the autopilot endelessly. If you execute the command top, you'll see the next tasks are running:
+<img src="./Advanced configuration _ Erle Robotics Docs_files/top_debian_pxfmini_low.jpg"></p>
+<hr>
+<p>Where <code>ArduCopter.elf</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> and <code>apm.sh</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> are part of that service.</p>
+<hr>
+<p>If you wish to <strong>stop</strong> the APM Autopilot, execute:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">stop</span> <span class="hljs-selector-tag">apm</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p>If you wish to <strong>start</strong> the APM Autopilot, please execute:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">start</span> <span class="hljs-selector-tag">apm</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p>If you wish to <strong>disable</strong> the APM Autopilot service, meaning that will not execute on boot any longer, please execute:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">disable</span> <span class="hljs-selector-tag">apm</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p>If you wish to <strong>enable</strong> the APM Autopilot service, meaning that will execute on boot, please execute:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">enable</span> <span class="hljs-selector-tag">apm</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p>If you wish to <strong>check the status/obtain info</strong> about the APM Autopilot service, please execute:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">status</span> <span class="hljs-selector-tag">apm</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p>The autopilot is launched by a script that is located at home (<code>/~/</code>) that is called <code>apm.sh</code><span class="copy-to-clipboard" title="Copy to clipboard"></span>. Editing this file, you could select how to execute the autopilot and which vehicle's autopilot you wan to execute:</p>
+<pre><code class="hljs twig"><span class="xml">./<span class="hljs-tag">&lt;<span class="hljs-name">executable_name.elf</span>&gt;</span> -A <span class="hljs-tag">&lt;<span class="hljs-name">primary_telemetry_port</span>&gt;</span> -B <span class="hljs-tag">&lt;<span class="hljs-name">GPS_port</span>&gt;</span> -C <span class="hljs-tag">&lt;<span class="hljs-name">secondary_telemetry_port</span>&gt;</span>
+</span></code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<h2 id="change-the-vehicle"><a class="headeranchor-link" aria-hidden="true" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/advanced_configuration#change-the-vehicle" name="change-the-vehicle" title="Permanent link: Change the vehicle" data-icon="#">Change the vehicle</a><a class="anchorjs-link " href="about:blank#change-the-vehicle" aria-label="Anchor link for: change the vehicle" data-anchorjs-icon="" style="font-family: anchorjs-icons; font-style: normal; font-variant: normal; font-weight: normal; line-height: 1; padding-left: 0.375em;"></a></h2>
+<p>If you wish changed the vehicle needed change the <code>apm.sh</code><span class="copy-to-clipboard" title="Copy to clipboard"></span> script. For example, for the rover with WiFi and GPS:</p>
+<pre><code class="hljs perl">
+$APM_BIN_DIR/APMrover2.elf -A udp:<span class="hljs-number">10.0</span>.<span class="hljs-number">0</span>.<span class="hljs-number">2</span>:<span class="hljs-number">6000</span> -B /dev/ttyAMA<span class="hljs-number">0</span> $FLAG
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<center>
+<p style="border: 2px solid #000000; padding: 10px; background-color: #ffcc80; color: black; font-family: arial,helvetica;">
+<b>Note</b>: Notice:  ROS has been included, but is disabled.
+</p>
+</center>
+<p>If you want to activate, execute the following:</p>
+<pre><code class="hljs css"><span class="hljs-selector-tag">sudo</span> <span class="hljs-selector-tag">systemctl</span> <span class="hljs-selector-tag">enable</span> <span class="hljs-selector-tag">ros</span><span class="hljs-selector-class">.service</span>
+</code><span class="copy-to-clipboard" title="Copy to clipboard"></span></pre>
+<p></p>
+</div>
+
+                                        
+        </div>
+        	<div id="navigation">
+		    <a class="nav nav-prev" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/apm/install_binaries"> <i class="fa fa-chevron-left"></i></a>
+	
+		    <a class="nav nav-next" href="https://web.archive.org/web/20170511234704/http://docs.erlerobotics.com/brains/pxfmini/software/px4" style="margin-right: 0px;"><i class="fa fa-chevron-right"></i></a>
+		</div>
+    </section>
+                        <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//web.archive.org/web/20170511234704/http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-56079711-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+             
+
+<!--
+     FILE ARCHIVED ON 23:47:04 May 11, 2017 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 16:50:21 Aug 13, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  exclusion.robots.policy: 0.262
+  exclusion.robots: 0.271
+  load_resource: 120.885
+  RedisCDXSource: 15.041
+  captures_list: 138.932
+  PetaboxLoader3.datanode: 109.744 (4)
+  CDXLines.iter: 19.456 (3)
+  LoadShardBlock: 100.153 (3)
+  esindex: 0.011
+  PetaboxLoader3.resolve: 50.581
+--><div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"><div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div></div></body></html>
