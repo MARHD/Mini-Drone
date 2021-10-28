@@ -1,7 +1,7 @@
 # Design Files
 
 ## Final design used (some improvements still needed)
-![image](/../../Images/f41.png)
+![image](/../Images/f41.png)
 
 ## Older designs
 ### First design (incomplete)
