@@ -32,7 +32,7 @@ instructions in a documented public git repository
 - Assembly and test flight time: 2-3hrs (once experienced)
 
 ## Getting started
-Note: Some assembly tools as well as a means of 3D printing (PLA) are required for assembly.  All 3D printable models are available in [Mechanical Design](./Mechanical Design) as Fusion 360 design files, as well as stl files
+Note: Some assembly tools as well as a means of 3D printing (PLA) are required for assembly.  All 3D printable models are available in [Mechanical Design](./Mechanical%20Design) as Fusion 360 design files, as well as stl files
 
 All required components and suppliers are listed in the following [BOM](./Instructions/BOM.xlsx)
 
