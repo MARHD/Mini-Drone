@@ -1,8 +1,8 @@
 # Mini-Drone
-Design of a Mini Drone for EEE4022S
+Design of a Mini Drone for University of Cape Town EEE4022S final year project.
 
 
-![alt text](https://github.com/MARHD/Mini-Drone/blob/main/Images/framef1.png?raw=true)
+![](./Images/framef1.png)
 
 
 Original project description:
@@ -22,6 +22,19 @@ instructions in a documented public git repository
 4. A qualification of the performance of the resulting design
 5. The final thesis report, poster, and presentation
 
-Budget:
-R
+## Specifications
+- Quadracopter with optical flow sensor and range finder
+- Cost: R5273 (Excluding shipping, compatable transmitter and 2S LiPo battery charger)
+- Uses Pixracer R15 flight controller/autopilot, running ArduPilot
+- Take-off weight including battery: 107g
+- Recommended payload capacity: 60g
+- Flight Time with no additional payload: 7-8min hover
+- Assembly and test flight time: 2-3hrs (once experienced)
+
+## Getting started
+Note: Some basic tools including a means of printing in ABS or PLA are required for assembly.  All 3D printable models are available in [3dmodels](./3d_models) as FreeCad design files and stl files
+
+All required components and suppliers are listed in the following [BOM](./Instructions/BOM.xlsx)
+
+Build instructions are available [here](./Instructions/README.md)
 
