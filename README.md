@@ -2,7 +2,7 @@
 Design of a Mini Drone for EEE4022S
 
 
-![alt text](https://github.com/MARHD/Mini-Drone/blob/main/framef1.png?raw=true)
+![alt text](https://github.com/MARHD/Mini-Drone/blob/main/Images/framef1.png?raw=true)
 
 
 Original project description:
