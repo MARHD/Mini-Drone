@@ -1,32 +1,15 @@
-Build Instructions
-==
-## Required tools
-* Access to a 3D printer capable of printing PLA or ABS
-* 2mm flathead screwdriver (or whichever is needed for the M2 screws you bought)
-* M2 socket or wrench (or even a pair of pliers)
-* 1.5mm Torx screwdriver (for 1103 motors included screws)
-* Wire Cutters
-* Wire Strippers
-* Soldering Iron
-* Solder (preferably leaded with flux)
+# Wiring and Mounting the Telemetry module
 
-## Notes on assembly
-* Note1: Loctite should be used on screws only once confident everything is correctly assembled. Or locknuts could be used instead. 
-
-* Note2: Once all parts have been gathered and printed, the drone can be assembled within around 3-4 hours. This excludes flight testing and debugging, so first time assembly will take longer.
-
-## Order of Assembley:
-
-1. [Order Components](BOM.xlsx)
-1. [Print & assemble Parts](mds/print_parts.md)
-1. [Mount Pixracer](mds/mount_pixracer.md)
-1. [Wire & Mount Flowdeck sensor board](mds/mount_flow.md)
-1. [Replace XT60 & battery connector with XT30](mds/xt30.md)
-1. [Wire & Mount Power Brick](mds/power_brick.md)
-1. [Wire & Mount motors + ESC](mds/esc.md)
-1. [Wire & Mount receiver](mds/rec.md)
-1. [Wire & Mount telemetry](mds/telem.md)
-1. [Mount battery](mds/mount_bat.md)
-1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
-1. [Installing Propellers](mds/props.md)
+1. Get 5 dupont female wires or a 4x2 dupont female connector and cut the other end of the wires to around __mm.
+Also find another 6 pin JST GH cable and cut one end, removing the insulation from both wires.
+![](/./Images/frame2pieces.png)
+1. Use heat shrink and solder the cables together according to the following diagrams.
+NB: the 3.3V wire comes from the SPI header we made before, which connects to the flowdeck.
+This 3.3V wire is connected to two places on the telemetry module.
+![](/./Images/ESP.png)
+![](/./Images/ESPModule.png)
+1. Place clear glue onto the area on the top top frame and place the telemetry module on the glue holding until dry.
+![](/./Images/f41.png)
+1. Plug the 6 pin JST cable into the telemetry 1 port of the Pixracer.
+![](/./Images/I2C.png)
+1. Move onto [Mounting the battery](./mount_bat.md)

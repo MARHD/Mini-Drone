@@ -1,32 +1,20 @@
-Build Instructions
-==
-## Required tools
-* Access to a 3D printer capable of printing PLA or ABS
-* 2mm flathead screwdriver (or whichever is needed for the M2 screws you bought)
-* M2 socket or wrench (or even a pair of pliers)
-* 1.5mm Torx screwdriver (for 1103 motors included screws)
-* Wire Cutters
-* Wire Strippers
-* Soldering Iron
-* Solder (preferably leaded with flux)
+# Printing & assembling plastic parts
 
-## Notes on assembly
-* Note1: Loctite should be used on screws only once confident everything is correctly assembled. Or locknuts could be used instead. 
+1. Print the two .stl files, [here](/./Mechanical%20Design/f41.png) for the top frame and [here](/./Mechanical%20Design/f41.png) for the carriage.
+![](/./Images/frame2pieces.png)
+1. Use a hobby knife to remove the 3D printed supports from these locations.
+![](/./Images/f41.png)
+1. Use either a hobby knife or a de-burring tool to clean up any imperfections on the large post holes, the large motor holes on the upper frame and the posts of the carriage.
+![](/./Images/f41.png)
+1. Rotate the top frame such that the foreward arrow is facing foreward, and the posts are facing downwards.
+![](/./Images/f41.png)
+1. Rotate the carriage such that the foreward arrow is also facing foreward, and the posts are facin upwards.
+![](/./Images/f41.png)
+1. Apply some super glue into each of the large post holes on the top frame
+![](/./Images/f41.png)
+1. Fit the two parts together with the large holes of the top frame on the carriage posts, such that the top of the posts are flush with the top carriage.
+![](/./Images/f41.png)
+1. Let the glue dry...
+1. Move onto [Mounting the Pixracer](./mount_pixracer.md)
 
-* Note2: Once all parts have been gathered and printed, the drone can be assembled within around 3-4 hours. This excludes flight testing and debugging, so first time assembly will take longer.
 
-## Order of Assembley:
-
-1. [Order Components](BOM.xlsx)
-1. [Print & assemble Parts](mds/print_parts.md)
-1. [Mount Pixracer](mds/mount_pixracer.md)
-1. [Wire & Mount Flowdeck sensor board](mds/mount_flow.md)
-1. [Replace XT60 & battery connector with XT30](mds/xt30.md)
-1. [Wire & Mount Power Brick](mds/power_brick.md)
-1. [Wire & Mount motors + ESC](mds/esc.md)
-1. [Wire & Mount receiver](mds/rec.md)
-1. [Wire & Mount telemetry](mds/telem.md)
-1. [Mount battery](mds/mount_bat.md)
-1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
-1. [Installing Propellers](mds/props.md)

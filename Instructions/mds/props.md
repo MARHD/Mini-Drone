@@ -1,32 +1,17 @@
-Build Instructions
-==
-## Required tools
-* Access to a 3D printer capable of printing PLA or ABS
-* 2mm flathead screwdriver (or whichever is needed for the M2 screws you bought)
-* M2 socket or wrench (or even a pair of pliers)
-* 1.5mm Torx screwdriver (for 1103 motors included screws)
-* Wire Cutters
-* Wire Strippers
-* Soldering Iron
-* Solder (preferably leaded with flux)
+# Wiring and Mounting the Flowdeck V2
 
-## Notes on assembly
-* Note1: Loctite should be used on screws only once confident everything is correctly assembled. Or locknuts could be used instead. 
-
-* Note2: Once all parts have been gathered and printed, the drone can be assembled within around 3-4 hours. This excludes flight testing and debugging, so first time assembly will take longer.
-
-## Order of Assembley:
-
-1. [Order Components](BOM.xlsx)
-1. [Print & assemble Parts](mds/print_parts.md)
-1. [Mount Pixracer](mds/mount_pixracer.md)
-1. [Wire & Mount Flowdeck sensor board](mds/mount_flow.md)
-1. [Replace XT60 & battery connector with XT30](mds/xt30.md)
-1. [Wire & Mount Power Brick](mds/power_brick.md)
-1. [Wire & Mount motors + ESC](mds/esc.md)
-1. [Wire & Mount receiver](mds/rec.md)
-1. [Wire & Mount telemetry](mds/telem.md)
-1. [Mount battery](mds/mount_bat.md)
-1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
-1. [Installing Propellers](mds/props.md)
+1. Find your propellers and place them all with the writing facing upwards so that it is legible.
+![](/./Images/frame2pieces.png)
+1. Locate 2 propellers which have "T65R" written on them and 2 which have "T65". 
+Or if there is no direction indication, find 2 of each type of prop, with the writing facing upwards or the moulding marks facing downwards, the propeller types should look opposite to each other.
+Watch this [video](https://www.youtube.com/watch?v=nc1QG_Njo7Y&t=238s&ab_channel=JoshuaBardwell) to learn how to tell which propeller is for CW or CCW.
+![](/./Images/f41.png)
+1. Hold the motors still and fit the propellers onto the motor shafts according to the following diagram.
+Twisting the propellers will help to get them on. 
+NB: Do not push the propellers so far that the shaft is visible above the hole of the propeller.
+![](/./Images/f41.png)
+1. Rotate the propellers on the motor shaft such that the holes line up with the holes in the motor.
+Then use the provided motor screws (longer ones) to slowly screw the propeller in place until the motor shaft is just barely flush with the top of the propeller.
+![](/./Images/flow.png)
+![](/./Images/I2C.png)
+1. Move onto [Tuning](./tune.md)

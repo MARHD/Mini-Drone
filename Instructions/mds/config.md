@@ -1,32 +1,18 @@
-Build Instructions
-==
-## Required tools
-* Access to a 3D printer capable of printing PLA or ABS
-* 2mm flathead screwdriver (or whichever is needed for the M2 screws you bought)
-* M2 socket or wrench (or even a pair of pliers)
-* 1.5mm Torx screwdriver (for 1103 motors included screws)
-* Wire Cutters
-* Wire Strippers
-* Soldering Iron
-* Solder (preferably leaded with flux)
+# Configuring ArduPilot
 
-## Notes on assembly
-* Note1: Loctite should be used on screws only once confident everything is correctly assembled. Or locknuts could be used instead. 
-
-* Note2: Once all parts have been gathered and printed, the drone can be assembled within around 3-4 hours. This excludes flight testing and debugging, so first time assembly will take longer.
-
-## Order of Assembley:
-
-1. [Order Components](BOM.xlsx)
-1. [Print & assemble Parts](mds/print_parts.md)
-1. [Mount Pixracer](mds/mount_pixracer.md)
-1. [Wire & Mount Flowdeck sensor board](mds/mount_flow.md)
-1. [Replace XT60 & battery connector with XT30](mds/xt30.md)
-1. [Wire & Mount Power Brick](mds/power_brick.md)
-1. [Wire & Mount motors + ESC](mds/esc.md)
-1. [Wire & Mount receiver](mds/rec.md)
-1. [Wire & Mount telemetry](mds/telem.md)
-1. [Mount battery](mds/mount_bat.md)
-1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
-1. [Installing Propellers](mds/props.md)
+1. 1. Download the latest "main" parameter file [here](/./Software/ArduCopter-4.1%20Custom/Mission%20Planner%20Parameters/)
+1. With the drone connected via USB, click the "config" button at the top of Mission Planner, followed by the "full parameter list" tab.
+![](/./Images/config.png)
+![](/./Images/param.png)
+1. Click on the "Load from file" button on the right hand side and navigate to where you saved the parameter file earlier.
+Choose the file and click open.
+The parameter list should be updated
+![](/./Images/f41.png)
+1. Click on the "Write Params" button on the right, to save these parameters ontp the drone.
+Once completed, restart the drone by unplugging and plugging the USB back in.
+![](/./Images/f41.png)
+1. Click on the "Setup button" again, at the top of Mission Planner. Then click on the "Mandatory Hardware" tab. 
+Go through each of the sub categories of "Mandatory Hardware" to calibrate the Accelerometers, Gyroscope and compass as well as setting up the transmitter,
+according to the [ardupilot setup page](https://ardupilot.org/copter/docs/configuring-hardware.html)
+![](/./Images/flow.png)
+1. Move onto [Installing propellers](./props.md)

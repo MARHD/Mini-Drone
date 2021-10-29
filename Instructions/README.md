@@ -28,5 +28,6 @@ Build Instructions
 1. [Wire & Mount telemetry](mds/telem.md)
 1. [Mount battery](mds/mount_bat.md)
 1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
+1. [Configuring ArduPilot](mds/config.md)
 1. [Installing Propellers](mds/props.md)
+1. [Tuning](mds/tune.md)

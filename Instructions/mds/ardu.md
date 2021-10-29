@@ -1,32 +1,21 @@
-Build Instructions
-==
-## Required tools
-* Access to a 3D printer capable of printing PLA or ABS
-* 2mm flathead screwdriver (or whichever is needed for the M2 screws you bought)
-* M2 socket or wrench (or even a pair of pliers)
-* 1.5mm Torx screwdriver (for 1103 motors included screws)
-* Wire Cutters
-* Wire Strippers
-* Soldering Iron
-* Solder (preferably leaded with flux)
+# Wiring and Mounting the Flowdeck V2
 
-## Notes on assembly
-* Note1: Loctite should be used on screws only once confident everything is correctly assembled. Or locknuts could be used instead. 
+Your Pixracer should come with Ardupilot pre-installed. If not, follow the guide [here]() to install it
 
-* Note2: Once all parts have been gathered and printed, the drone can be assembled within around 3-4 hours. This excludes flight testing and debugging, so first time assembly will take longer.
-
-## Order of Assembley:
-
-1. [Order Components](BOM.xlsx)
-1. [Print & assemble Parts](mds/print_parts.md)
-1. [Mount Pixracer](mds/mount_pixracer.md)
-1. [Wire & Mount Flowdeck sensor board](mds/mount_flow.md)
-1. [Replace XT60 & battery connector with XT30](mds/xt30.md)
-1. [Wire & Mount Power Brick](mds/power_brick.md)
-1. [Wire & Mount motors + ESC](mds/esc.md)
-1. [Wire & Mount receiver](mds/rec.md)
-1. [Wire & Mount telemetry](mds/telem.md)
-1. [Mount battery](mds/mount_bat.md)
-1. [Installing firmware](mds/ardu.md)
-1. [Configuring the ArduPilot](mds/config.md)
-1. [Installing Propellers](mds/props.md)
+1. Download the latest pre-compiled ArduPilot version [here](/./Software/ArduCopter-4.1%20Custom/Builds/)
+1. Install Mission Planner with default settings.
+![](/./Images/mplanner.png)
+1. Plug your Micro USB cable into the Pixracer and the other end into your computer. 
+Then click the connect to COM button on the top right of Mission Planner
+![](/./Images/Pixusb.png)
+![](/./Images/usblaptop.png)
+1. Click on the Setup button at the top of Mission Planner. 
+Then click on the Install Firmware button, followed by the Load custom firmware button.
+![](/./Images/setup.png)
+![](/./Images/install.png)
+![](/./Images/custom.png)
+1. Navigate to where you downloaded the ArduPilot firmware before, choose the file and click open.
+The firmware should install after a few minutes.
+![](/./Images/custom.png)
+1. Once installed, restart the Pixracer by simply un-plugging and plugging the USB back in.
+1. Move onto [Configuring the firmware](./config.md)
