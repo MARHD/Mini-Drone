@@ -1,6 +1,6 @@
-# Wiring and Mounting the Flowdeck V2
+# Installing ArduPilot
 
-Your Pixracer should come with Ardupilot pre-installed. If not, follow the guide [here]() to install it
+Your Pixracer should come with Ardupilot pre-installed. If not, follow the guide [here](https://ardupilot.org/copter/docs/initial-setup.html) to install it
 
 1. Download the latest pre-compiled ArduPilot version [here](/./Software/ArduCopter-4.1%20Custom/Builds/)
 1. Install Mission Planner with default settings.

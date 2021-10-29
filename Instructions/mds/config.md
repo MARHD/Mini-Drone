@@ -1,6 +1,6 @@
 # Configuring ArduPilot
 
-1. 1. Download the latest "main" parameter file [here](/./Software/ArduCopter-4.1%20Custom/Mission%20Planner%20Parameters/)
+1. Download the latest "main" parameter file [here](/./Software/ArduCopter-4.1%20Custom/Mission%20Planner%20Parameters/)
 1. With the drone connected via USB, click the "config" button at the top of Mission Planner, followed by the "full parameter list" tab.
 ![](/./Images/config.png)
 ![](/./Images/param.png)
