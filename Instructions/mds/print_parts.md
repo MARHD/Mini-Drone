@@ -12,8 +12,8 @@
 <img src="/./Images/Instructions/2.jpg" height="300">
 6. Apply some super glue into each of the large post holes on the top frame.
 <img src="/./Images/Instructions/1glue.jpg" height="300">
-7. Fit the two parts together with the large holes of the top frame on the carriage posts, such that the top of the posts are flush with the top carriage, as seen in the previous image.
-8. Let the glue dry...
+7. Fit the two parts together with the large holes of the top frame on the carriage posts, such that the top of the posts are flush with the top carriage, as seen in the previous image.\
+8. Let the glue dry...\
 9. Move onto [Mounting_the_Pixracer](/./Instructions/mds/mount_pixracer.md)
 
 
