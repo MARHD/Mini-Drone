@@ -1,7 +1,7 @@
 # Printing & assembling plastic parts
 
 1. Print the two .stl files, [here](/./Mechanical%20Design/STL%20Files/Frame_top.stl) for the top frame and [here](/./Mechanical%20Design/STL%20Files/Frame_carriage.stl) for the carriage. Optionally the Stand [here](/./Mechanical%20Design/STL%20Files/Stand.stl) can also be printed.
-[[ /./Images/Instructions/3.jpeg | height = 100px ]]
+[[ /./Images/Instructions/3.jpeg |\ height = 100px ]]
 1. Use a hobby knife to remove the 3D printed supports from these locations. 
 <img src="/./Images/Instructions/supp1.png" height="300">
 1. Use either a hobby knife or a de-burring tool to clean up any imperfections on the large post holes, the large motor holes on the upper frame and the posts of the carriage. 
