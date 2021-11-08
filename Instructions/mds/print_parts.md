@@ -13,6 +13,6 @@
 <img src="/./Images/Instructions/1glue.jpg" height="300">
 1. Fit the two parts together with the large holes of the top frame on the carriage posts, such that the top of the posts are flush with the top carriage, as seen in the previous image.
 1. Let the glue dry...
-1. Move onto [Mounting the Pixracer](/mount_pixracer.md)
+1. Move onto [Mounting the Pixracer](mount_pixracer.md)
 
 
