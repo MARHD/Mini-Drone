@@ -1,6 +1,6 @@
 # Design Files
 
-## Final design used. Files to print, [here](./STL%20Files) and file to edit, [here](./Fusion%20Files/Final%20Frame.f3z)
+## Final design used. Files to print, [here](./STL%20Files) and file to edit, [here](./Fusion%20Files/Frame%20Final.f3z)
 
 ![](/./Images/f41.jpg)
 
