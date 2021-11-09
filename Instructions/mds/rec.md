@@ -18,6 +18,6 @@
 
 6. Heat shrink the end of the receivers antennas together and route it out of the way down the side of the drone to the bottom. 
 
-<img src="/./Images/Instructions/flowdeck.png" height="300">
+<img src="/./Images/Instructions/rec.jpeg" height="300"> <img src="/./Images/Instructions/rec2.jpeg" height="300">
 
 7. Move onto [Wiring and Mounting the telemetry module](./telem.md)
