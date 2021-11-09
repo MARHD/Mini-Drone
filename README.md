@@ -2,7 +2,7 @@
 Design of a Mini Drone for University of Cape Town EEE4022S final year project.
 
 
-![](./Images/framef1.png)
+![](./Images/framef1.jpg)
 
 
 Original project description:
