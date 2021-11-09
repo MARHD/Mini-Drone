@@ -12,7 +12,7 @@
 
 <img src="/./Images/Instructions/25_2.jpeg" height="300">
 
-5. Plug the 4 pin JST cable into the RC port of the Pixracer.
+5. Plug the 5 pin JST cable into the RC port of the Pixracer.
 
 <img src="/./Images/Instructions/26.jpeg" height="300">
 

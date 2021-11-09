@@ -1,6 +1,6 @@
 # Wiring and Mounting the Telemetry module
 
-1. Get 5 dupont female wires or a 4x2 dupont female connector and cut the other end of the wires to around __mm.
+1. Get 5 dupont female wires or a 4x2 dupont female connector and cut the other end of the wires to around 14-15 cm.
 
 Also find another 6 pin JST GH cable and cut one end, removing the insulation from both wires.
 

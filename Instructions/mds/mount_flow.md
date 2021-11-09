@@ -2,13 +2,13 @@
 
 Skip this step if you do not have a flowdeck or optical flow sensor/rangefinder
 
-1. Find one of your JST GH 6-pin cables as well as an 8 pin dupont header with 6 assorted wires.
+1. Find one of your JST GH 6-pin cables as well as a breakaway male header (break 2, 4 way pins and glue together) with 6 assorted wires.
 
 Then Cut the 6-pin JST GH cable to be approximately 14 cm and remove the insulation from the newly cut end.
 
 <img src="/./Images/Instructions/8_2.jpeg" height="300">
 
-2. Solder 4 of the the wires to the Flowdeck V2 (from the 6-pin JST cable), matching the connections to the two images below. 
+2. Solder 3 of the the wires to the Flowdeck V2 (from the 6-pin JST cable), matching the connections to the two images below. 
 
 Alternatively a header for the Flowdeck could be purchased and the wires soldered to that instead.
 
@@ -16,7 +16,7 @@ The other wires can either be removed from the connector or heat shrink placed o
 
 <img src="/./Images/Instructions/I2C.jpg" height="300"> <img src="/./Images/Instructions/flow.jpg" height="300"> 
 
-3. Next solder 6 wires onto the dupont header as shown below and heat shrink over the wires once done.
+3. Next solder 6 wires onto the dupont header according to the diagram below, and heat shrink over the wires once done.
 
 <img src="/./Images/Instructions/SPI.jpg" height="300"> <img src="/./Images/Instructions/header.jpeg" height="300">
 
@@ -24,7 +24,7 @@ The other wires can either be removed from the connector or heat shrink placed o
 
 NB: Also use another short wire to connect the two power pins as shown by the thicker red wire in image 2.
 
-NB2: The red 3.3V wire connect to the flowdeck and to the telemetry module in a later step (so an additional wire should be soldered). 
+NB2: The red 3.3V wire connect to the flowdeck and to the telemetry module (so an additional wire should be soldered). 
 
 <img src="/./Images/Instructions/flow.jpg" height="300"> <img src="/./Images/Instructions/flowdeck.jpeg" height="300">
 
