@@ -10,7 +10,7 @@ Also find another 6 pin JST GH cable and cut one end, removing the insulation fr
 
 NB: the 3.3V wire comes from the SPI header we made before, which also connects to the flowdeck. This 3.3V wire is connected to two places on the telemetry module.
 
-<img src="/./Images/Instructions/ESP.jpg" height="300"> <img src="/./Images/Instructions/ESPModule.jpg" height="300">
+<img src="/./Images/Instructions/ESP.jpg" height="300"> <img src="/./Images/Instructions/ESPmodule.jpg" height="300">
 
 3. Place clear glue onto the area on the top top frame and place the telemetry module on the glue holding until dry.
 
@@ -20,4 +20,4 @@ NB: the 3.3V wire comes from the SPI header we made before, which also connects 
 
 <img src="/./Images/Instructions/30.jpeg" height="300">
 
-5. Move onto [Mounting the battery](./mount_bat.md" height="300">
+5. Move onto [Mounting the battery](./mount_bat.md)
