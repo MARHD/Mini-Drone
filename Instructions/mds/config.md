@@ -12,18 +12,18 @@ Choose the file and click open.
 
 The parameter list should be updated
 
-<img src="/./Images/Instructions/f41.png" height="300">
+<img src="/./Images/Instructions/load.png" height="300"> <img src="/./Images/Instructions/open2.png" height="300">
 
 4. Click on the "Write Params" button on the right, to save these parameters ontp the drone.
 
 Once completed, restart the drone by unplugging and plugging the USB back in.
 
-<img src="/./Images/Instructions/f41.png" height="300">
+<img src="/./Images/Instructions/write.png" height="300">
 
 5. Click on the "Setup button" again, at the top of Mission Planner. Then click on the "Mandatory Hardware" tab. 
 
 Go through each of the sub categories of "Mandatory Hardware" to calibrate the Accelerometers, Gyroscope and compass as well as setting up the transmitter, according to the [ardupilot setup page](https://ardupilot.org/copter/docs/configuring-hardware.html)
 
-<img src="/./Images/Instructions/flow.png" height="300">
+<img src="/./Images/Instructions/mandatory.png" height="300">
 
 6. Move onto [Installing propellers](./props.md)
