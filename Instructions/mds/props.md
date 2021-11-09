@@ -8,7 +8,7 @@
 
 Or if there is no direction indication, find 2 of each type of prop, with the writing facing upwards or the moulding marks facing downwards, the propeller types should look opposite to each other.
 
-Watch this [video](https://www.youtube.com/watch?v=nc1QG_Njo7Y&t=238s&ab_channel=JoshuaBardwell) to learn how to tell which propeller is for CW or CCW.
+Watch this [video](https://www.youtube.com/watch?v=nc1QG_Njo7Y&t=238s&ab_channel=JoshuaBardwell) to learn how to tell which propeller is for CCW or CW.
 
 <img src="/./Images/Instructions/t65.jpeg" height="300"> <img src="/./Images/Instructions/t65r.jpeg" height="300">
 
