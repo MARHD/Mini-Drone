@@ -18,8 +18,7 @@ The other wires can either be removed from the connector or heat shrink placed o
 
 4. Next solder 6 wires onto the dupont header as shown below and heat shrink over the wires once done.
 
-<img src="/./Images/Instructions/SPI.jpg" height="300">
-<img src="/./Images/Instructions/header.jpeg" height="300">
+<img src="/./Images/Instructions/SPI.jpg" height="300"> <img src="/./Images/Instructions/header.jpeg" height="300">
 
 5. Cut the other end of the 6 wires to approximately __ mm, remove the insulation and solder onto the flowdeck according to the diagram below.
 
@@ -27,8 +26,7 @@ NB: Also use another short wire to connect the two power pins as shown by the th
 
 NB2: The red 3.3V wire connect to the flowdeck and to the telemetry module in a later step (so an additional wire should be soldered). 
 
-<img src="/./Images/Instructions/flow.jpg" height="300">
-<img src="/./Images/Instructions/flowdeck.jpeg" height="300">
+<img src="/./Images/Instructions/flow.jpg" height="300"> <img src="/./Images/Instructions/flowdeck.jpeg" height="300">
 
 6. Plug the newly created cables into the ports on the Pixracer, to ensure wire lengths are correct. 
 
