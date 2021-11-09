@@ -1,6 +1,6 @@
 # Wiring and Mounting the receiver
 
-1. Find your 4 pin JST GH cable, cut one end off and strip the insulation back slightly. Then solder the uninsulated ends onto the receiver according to the following diagrams.
+1. Find your 5 pin JST GH cable, cut one end off and strip the insulation back slightly. Then solder the uninsulated ends onto the receiver according to the following diagrams.
 
 <img src="/./Images/Instructions/XM+.jpg" height="300"> <img src="/./Images/Instructions/XM+module.jpg" height="300">
 
