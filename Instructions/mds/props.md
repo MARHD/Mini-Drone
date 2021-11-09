@@ -18,7 +18,7 @@ Twisting the propellers will help to get them on.
 
 NB: Do not push the propellers so far that the shaft is visible above the hole of the propeller.
 
-<img src="/./Images/Instructions/motororder.jpeg" height="300">
+<img src="/./Images/Instructions/motororder.jpg" height="300">
 
 4. Rotate the propellers on the motor shaft such that the holes line up with the holes in the motor.
 
