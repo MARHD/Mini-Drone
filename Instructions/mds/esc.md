@@ -11,7 +11,7 @@ The wires should follow the connection diagrams below.
 
 NB: These connectors are tiny so be careful when soldering and moving it around (I would actually recommend a different ESC due to the small connections on this one, mentioned in the BOM file)
 
-<img src="/./Images/Instructions/esc.jpg" height="300"> <img src="/./Images/Instructions/servo.jpg" height="300">
+<img src="/./Images/Instructions/ESC.jpg" height="300"> <img src="/./Images/Instructions/Servo.jpg" height="300">
 
 4. Cut the connectors off of the motor cables and remove a small amount of insulation, then straighten the motor wires so that they aren't crossed.
 
