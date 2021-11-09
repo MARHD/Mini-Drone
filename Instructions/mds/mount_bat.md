@@ -4,13 +4,13 @@
 
 Place clear glue on the areas shown in the carriage of the frame.
 
-![](/./Images/glue.png)
+<img src="/./Images/Instructions/glue.png" height="300">
 
 3. Slide the battery in, with the power cable nearest to the XT30 connector of the power module.
 
 Hold the battery in place, trying to keep it centered in the carriage long ways and to the side of the SPI connector sticking out of the Pixracer.
 
-![](/./Images/framef4.jpg)
+<img src="/./Images/Instructions/framef4.jpg" height="300">
 
 4. Let the glue dry...
 
